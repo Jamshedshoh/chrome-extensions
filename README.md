@@ -1,4 +1,4 @@
 # chrome-extensions
 
-## To do list chrome extension 
+## To do list Chrome extension 
 ![Todo List](./template-todo/img/screenshot.png)
