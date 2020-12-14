@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo</title>
+</head>
+<body>   
+    <div class="container">
+        <h1 class="text-center">Todo List</h1>
+        <div>
+            <form id="addTodo">
+                <div class="input-group mb-3">
+                    <input name="todo" type="text" class="form-control" placeholder="Do action ... ">
+                    <button class="btn btn-outline-secondary" type="submit">Add</button>
+                    <button id="clearAll" class="btn btn-outline-secondary" type="button">Clear All</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <ol id="list" class="list-group"></ol>
+        </div>
+    </div> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
