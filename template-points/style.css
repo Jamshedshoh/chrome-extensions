@@ -1,0 +1,12 @@
+html, body {
+    width: 500px;
+    height: 500px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.balance {
+    padding: 10px;
+}

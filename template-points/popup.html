@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Points</title>
+</head>
+<body>   
+    <div class="container">
+        <div class="balance">
+            <h1 id="balance" class="text-center">
+                10000 points
+            </h1>
+        </div>
+        <div>
+            <form id="sendForm">
+                <div>
+                    <label class="label">
+                        Transfer amount of points
+                    </label>
+                </div>
+                <div class="input-group mb-3">
+                    <input name="amount" type="number" class="form-control" placeholder="Amount ... ">
+                    <input name="accountId" type="text" class="form-control" placeholder="To account id ... ">
+                    <button class="btn btn-warning" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <div>
+                <label class="label">
+                    History
+                </label>
+            </div>
+            <ol id="list" class="list-group"></ol>
+        </div>
+    </div> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
